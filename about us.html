@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="IMG_4408_1.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Youssef hisham Abd elwahab</h2>
+        <p>202000543</p>
+        <p>Y.AbdElWahab@nu.edu.eg</p>
+        <p>-Home</p>
+        <p>-About Us</p>
+        <p>-Contact</p>
+        <p>-Asus TUF A15</p>
+        <p>-HP Omen 17</p>
+
+
+
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="125051049_3423946981019984_3920883697712958027_o.jpg" alt="Mike" style="width:100%""height: 50%">
+      <div class="container">
+        <h2>Anas Ahmed Hassan Sayed</h2>
+        <p>202000005</p>
+        <p>A.Sayed@nu.edu.eg</p>
+        <p>-Home</p>
+        <p>-About Us</p>
+        <p>-Contact</p>
+        <p>-Alienware area 51m</p>
+        <p>-Acer Predator Helios 500</p>
+        
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="127211302_175682894217677_842007920782488315_n.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Ziad Ahmed ElKady</h2>
+        <p>202001598</p>
+        <p>Z.ElKady@nu.edu.eg</p>
+        <p>-Home</p>
+        <p>-About Us</p>
+        <p>-Contact</p>
+        <p>-Razer Blade Stealth 13</p>
+        <p>-ROG Strix G 531</p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

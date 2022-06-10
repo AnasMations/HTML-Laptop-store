@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<head>
+
+	<title>The Laptop Store</title>	
+<div class="title-bar">
+	<h1>The Laptop Store</h1>
+	<p >The best place to get a laptop</p>	
+</div>
+
+<div class="menu-bar">
+	<ul>
+	<li><button onclick="iframeFunction1()">Home</button></li>
+	<li><button onclick="iframeFunction2()">About us</button></li>
+	<li><button onclick="iframeFunction3()">Contact</button></li>
+	</ul>
+</div>
+
+</head>
+
+<body>
+	<iframe id="myframe" src="laptops.html" width="100%" height="1000px" style="border:2px solid black;" align="middle"></iframe>
+</body>
+
+<script>
+function iframeFunction1() {
+  document.getElementById("myframe").src = "laptops.html";
+}
+function iframeFunction2() {
+  document.getElementById("myframe").src = "about us.html";
+}
+function iframeFunction3() {
+  document.getElementById("myframe").src = "contact us.html";
+}
+</script>
+
+</html>

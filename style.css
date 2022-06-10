@@ -1,0 +1,60 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+
+}
+.menu-bar
+{
+	background-color: #a71a1f;
+	font-family: arial;
+	font-size: 20px;
+	color: white; 
+	text-align: center;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+}
+.menu-bar ul li
+{
+	width: 200px;
+	height:25px;
+	padding: 5px;
+}
+.menu-bar button
+{
+	font-size: 20px;
+	color: white;
+	background: none;
+	border: none;
+}
+.menu-bar button:hover {
+   background: #22334c;
+   cursor: pointer;
+}
+
+.title-bar
+{
+	background-color: #22334c;
+	height: 115px;
+	text-align: center;
+
+	padding: 3px;
+}
+.title-bar h1
+{
+	font-family: arial black;
+	font-size: 64px;
+	color: white;
+}
+.title-bar p
+{
+	font-family: arial;
+	font-size: 20px;
+	color: #182334;
+}
